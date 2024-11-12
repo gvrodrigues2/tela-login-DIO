@@ -10,7 +10,7 @@ import { Feed } from './pages/feed';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/tela-login-DIO">
       <Routes>
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
