@@ -12,6 +12,7 @@ function App() {
   return (
     <Router basename="/tela-login-DIO">
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/login" element={<Login />} />
         <Route path="/feed" element={<Feed />} />
