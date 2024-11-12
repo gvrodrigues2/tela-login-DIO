@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/tela-login-DIO/static/js/main.5e469ffa.js",
+    "static/media/banner.png": "/tela-login-DIO/static/media/banner.a7c70a442a2b18b90137.png",
+    "index.html": "/tela-login-DIO/index.html",
+    "main.5e469ffa.js.map": "/tela-login-DIO/static/js/main.5e469ffa.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5e469ffa.js"
+  ]
+}
