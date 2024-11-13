@@ -23,9 +23,9 @@ export const Column = styled.div`
 export const Row = styled.div`
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 `
 
 
@@ -59,6 +59,15 @@ export const SubtitleLogin = styled.p`
     line-height: 25px;
 `
 
+export const SubtitleButton = styled.p`
+    font-family: 'Open-Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 22px;
+    line-height: 25px;
+`
+
 export const EsqueciText = styled.p`
     font-family: 'Open-Sans';
     font-style: normal;
@@ -66,7 +75,7 @@ export const EsqueciText = styled.p`
     font-size: 14px;
     line-height: 19px;
 
-    color: #E5EA44;
+    color: #FFFFFF;
 `
 
 export const CriarText = styled.p`
@@ -76,12 +85,5 @@ export const CriarText = styled.p`
     font-size: 14px;
     line-height: 19px;
 
-    color: #E23DD7;
-    transition: color 0.3s ease;
-
-    cursor: pointer;
-
-    &:hover {
-        color: #007BFF; /* Cor de destaque ao passar o mouse */
-    }
+    color: #23DD7A;
 `
